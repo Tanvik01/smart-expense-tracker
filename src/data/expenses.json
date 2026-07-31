@@ -5,5 +5,12 @@
     "amount": 52.3,
     "category": "Food",
     "date": "2026-07-31"
+  },
+  {
+    "id": "963a597e-9fa8-4b88-9d4a-20ebc765c57d",
+    "title": "Test Coffee",
+    "amount": 4.5,
+    "category": "Food",
+    "date": "2026-07-31"
   }
 ]
