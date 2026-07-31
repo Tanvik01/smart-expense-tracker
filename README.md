@@ -4,6 +4,30 @@ A REST API for managing personal expenses — add, list, filter by category,
 compute totals (overall and by category), get a monthly summary, delete, and search by title.
 Built with Node.js and Express, storing data in a local JSON file.
 
+## Project Structure
+
+```
+smart-expense-tracker/
+├── src/
+│   ├── app.js               # Express app setup & middleware
+│   ├── server.js            # Entry point — starts the HTTP server
+│   ├── data/
+│   │   ├── expenses.json    # Persistent data store (auto-created)
+│   │   └── store.js         # JSON read/write helpers
+│   ├── models/
+│   │   ├── categories.js    # Fixed category list
+│   │   └── validate.js      # Input validation logic
+│   └── routes/
+│       └── expenses.js      # All /expenses route handlers
+├── tests/
+│   └── expenses.test.js     # Jest integration tests
+├── .gitignore
+├── AI_NOTES.md              # AI-assisted development notes
+├── package.json
+├── package-lock.json
+└── README.md
+```
+
 ## Install
 
 ```
